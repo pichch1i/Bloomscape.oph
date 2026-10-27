@@ -1,8 +1,8 @@
-import daisyImage from './assets/pict/Daisy.webp'
-import blueGlobeThistleImage from './assets/pict/Blue Globe Thistle.webp'
-import peachRoseImage from './assets/pict/Peach Rose.webp'
-import stripedCarnationImage from './assets/pict/Striped Carnation.webp'
-import sunflowerImage from './assets/pict/Sunflower.webp'
+import daisyImage from './assets/pict/daisy-transparent.webp'
+import lavenderImage from './assets/pict/lavender-transparent.webp'
+import dandelionImage from './assets/pict/dandelion-transparent.webp'
+import stripedCarnationImage from './assets/pict/striped-carnation-transparent.webp'
+import sunflowerImage from './assets/pict/sunflower-transparent.webp'
 
 const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path}`
 
@@ -19,10 +19,10 @@ const backgroundAssets = [
 
 const resultFlowerAssets = [
   sunflowerImage,
-  peachRoseImage,
+  lavenderImage,
   daisyImage,
   stripedCarnationImage,
-  blueGlobeThistleImage,
+  dandelionImage,
 ]
 
 const seenAssets = new Set<string>()
